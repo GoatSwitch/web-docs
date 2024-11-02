@@ -31,3 +31,9 @@ import TabItem from '@theme/TabItem';
 :::info Alternative
 Install directly via [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=GoatSwitchAI.goatswitchaichat)
 :::
+
+## Verify Installation
+
+After installing, verify the installation by checking if the GoatSwitch goat icon is present in the activity bar of VSCode.
+
+![GoatSwitch Installed](img/gs_installed.png)

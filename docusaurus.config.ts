@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "GoatSwitch AI Docs",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "img/gs_logo.png",
 
   // Set the production url of your site here
   // url: "https://goatswitch.github.io",
@@ -56,25 +56,19 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/gs_logo.png",
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: "My Site",
+      title: "Docs",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.svg",
+        alt: "GoatSwitch AI Logo",
+        src: "img/gs_logo.png",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "docsSidebar",
-          position: "left",
-          label: "Docs",
-        },
         {
           href: "https://github.com/GoatSwitch/web-docs",
           label: "GitHub",
