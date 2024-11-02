@@ -87,8 +87,8 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "GitHub",
-              href: "https://github.com/GoatSwitch/web-docs",
+              label: "GoatSwitch AI",
+              href: "https://goatswitch.ai",
             },
           ],
         },
