@@ -26,6 +26,11 @@ const config: Config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
+  themes: ["@docusaurus/theme-mermaid"],
+  markdown: {
+    mermaid: true,
+  },
+
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -52,6 +57,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: "My Site",
       logo: {
@@ -76,20 +86,15 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Docs",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
           title: "More",
           items: [
             {
-              label: "GoatSwitch AI",
+              label: "Homepage",
               href: "https://goatswitch.ai",
+            },
+            {
+              label: "Blog",
+              href: "https://goatswitch.ai/blog",
             },
           ],
         },
