@@ -17,6 +17,10 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "GoatSwitch AI", // Usually your GitHub org/user name.
   projectName: "web-docs", // Usually your repo name.
+  // deploymentBranch: "main", // default is 'gh-pages'
+  trailingSlash: false,
+  // githubHost: "github.com",
+  // githubPort: "443",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
