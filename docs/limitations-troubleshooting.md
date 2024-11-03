@@ -41,7 +41,6 @@ If AI generates unexpected changes:
 :::caution Unsupported Environments
 
 - VSCode Web version is not supported
-- Requires local Git installation via VSCode
   :::
 
 ## Getting Help
